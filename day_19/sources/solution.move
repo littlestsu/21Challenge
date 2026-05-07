@@ -103,12 +103,12 @@ module challenge::day_19_solution {
     }
 
     // Get total planted count
-    fun total_planted(farm: &Farm): u64 {
+    public fun total_planted(farm: &Farm): u64 {
         farm.counters.planted
     }
 
     // Get total harvested count
-    fun total_harvested(farm: &Farm): u64 {
+    public fun total_harvested(farm: &Farm): u64 {
         farm.counters.harvested
     }
 }
